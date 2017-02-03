@@ -5,18 +5,13 @@ There were a number of restrictions to add to the challenge of creating this dat
 
 -must be implemented using a singly linked list and array
 
-
 -algorithms must utilize the abstract operations and cannot access the LongIntList directly
-
 
 -strings can only be used to define the LongInt's value and nowhere else. Additionally, using primitives other than int is not allowed.
 
-
 -the LongInt must use the minimum number of nodes to represent the value
 
-
 -the sign cannot be changed outside of the LongInt.java file
-
 
 -the power method must have no more than 2lg(p) calls
 
