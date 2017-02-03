@@ -1,15 +1,7 @@
 # longint
-Creation of the LongInt data type.
-The objective of this project was to create a datatype that represents a number of any digit length.
-When using normal primitive data types, there is a limit as to how many different numbers that can be represented.
-For example, a standard int is composed of 32 bits, whose maximum value is usually composed of 10 digits.
-The LongInt allows the creation of numbers of any size, from one digit to as many as can physically fit in a computer's memory.
-LongInts must also be able to be compared (less than, greater than, equal to) and can be manipulated using various arithmetic
-functions (addition, subtraction, multiplication, power). Additionally, there are several utility functions
-that are used to make these algorithms easier to write, as shown and described in the LongIntUtils.java file.
+Creation of the LongInt data type. The objective of this project was to create a datatype that represents a number of any digit length. When using normal primitive data types, there is a limit as to how many different numbers that can be represented. For example, a standard int is composed of 32 bits, whose maximum value is usually composed of 10 digits. The LongInt allows the creation of numbers of any size, from one digit to as many as can physically fit in a computer's memory. LongInts must also be able to be compared (less than, greater than, equal to) and can be manipulated using various arithmetic functions (addition, subtraction, multiplication, power). Additionally, there are several utility functions that are used to make these algorithms easier to write, as shown and described in the LongIntUtils.java file. 
 
-There were a number of restrictions to add to the challenge of creating this data type, such as:
--must be implemented using a singly linked list and array
+There were a number of restrictions to add to the challenge of creating this data type, such as: -must be implemented using a singly linked list and array
 -algorithms must utilize the abstract operations and cannot access the LongIntList directly
 -strings can only be used to define the LongInt's value and nowhere else. Additionally, using primitives other than int is not allowed.
 -the LongInt must use the minimum number of nodes to represent the value
